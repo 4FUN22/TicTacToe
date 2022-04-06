@@ -1,0 +1,22 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+indent_style = space
+end_of_line = lf
+insert_final_newline = true
+# Don't use tabs for indentation.
+# (Please don't specify an indent_size here; that has too many unintended consequences.)
+
+[*.css]
+indent_style = space
+trim_trailing_whitespace = true
+indent_size = 2
+
+# JSON files
+[*.json]
+indent_style = space
+indent_size = 2
